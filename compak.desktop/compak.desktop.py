@@ -5,7 +5,7 @@ from models.range import Range
 from models.station import Station
 
 # Ladda kastprogram från JSON-fil
-with open("compak.desktop/compak.programs.json", "r") as f:
+with open("compak.desktop/programs/2021-rules.json", "r") as f:
     compak_programs = json.load(f)
 
 # Globala variabler
